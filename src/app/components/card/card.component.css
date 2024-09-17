@@ -1,3 +1,7 @@
+.conteiner{
+  width: 100vh;
+  border: 1px solid black;
+}
 .card{
   border: 1px solid black;
   width: 250px;
@@ -20,9 +24,12 @@
 .card__body{
   background-color: #616161;
   width: 90%;
-  height: 70%;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__stats{
